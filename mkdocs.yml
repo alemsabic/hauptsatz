@@ -25,7 +25,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - navigation.breadcrumbs
+    - navigation.path
     - navigation.footer
     - content.action.edit
     - content.action.view
