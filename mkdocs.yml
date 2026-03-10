@@ -9,9 +9,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: de
-  font:
-    text: Newsreader
-    code: JetBrains Mono
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -27,6 +25,8 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.breadcrumbs
+    - navigation.footer
     - content.action.edit
     - content.action.view
     - search.highlight

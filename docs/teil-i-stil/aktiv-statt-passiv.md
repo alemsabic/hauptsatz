@@ -16,33 +16,41 @@ Das Passiv ist das Lieblingsverb der Bürokratie. Behörden schreiben passiv, we
 
 ## Der Diff
 
+<div class="diff-grid" markdown>
 !!! vorher "Vorher"
     Die Einstellungen müssen vom Nutzer gespeichert werden.
 
 !!! nachher "Nachher"
     Speichere deine Einstellungen.
+</div>
 
 Der erste Satz hat neun Wörter. Der zweite hat drei. Der erste versteckt den Nutzer hinter "vom Nutzer". Der zweite spricht ihn an.
 
+<div class="diff-grid" markdown>
 !!! vorher "Vorher"
     Es wurde beschlossen, die Frist zu verlängern.
 
 !!! nachher "Nachher"
     Der Vorstand verlängerte die Frist.
+</div>
 
 Wer beschloss? Im Passiv weiß es niemand. Im Aktiv steht es da.
 
+<div class="diff-grid" markdown>
 !!! vorher "Vorher"
     Die Seite kann über den Button oben rechts aufgerufen werden.
 
 !!! nachher "Nachher"
     Klicke oben rechts auf Seite öffnen.
+</div>
 
+<div class="diff-grid" markdown>
 !!! vorher "Vorher"
     Im Rahmen der Qualitätssicherung wurde festgestellt, dass Verbesserungsbedarf besteht.
 
 !!! nachher "Nachher"
     Wir prüften die Qualität. Sie reicht nicht.
+</div>
 
 Zwei Sätze statt einem. Kürzer. Klarer. Und plötzlich gibt es ein "Wir", das Verantwortung übernimmt.
 
