@@ -1,0 +1,69 @@
+site_name: Hauptsatz
+site_url: https://hauptsatz.org
+site_description: Die Stilistik für professionelles Deutsch.
+site_author: Alem Sabic
+repo_url: https://github.com/alemsabic/hauptsatz
+repo_name: alemsabic/hauptsatz
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: de
+  font:
+    text: Spectral
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Zum dunklen Design
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Zum hellen Design
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.action.edit
+    - content.action.view
+    - search.highlight
+    - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: de
+
+nav:
+  - Start: index.md
+  - Teil I — Stil:
+    - Übersicht: teil-i-stil/index.md
+    - Sag, wer handelt: teil-i-stil/aktiv-statt-passiv.md
+    - Verben statt Nomen: teil-i-stil/verben-statt-nomen.md
+    - Kurze Sätze: teil-i-stil/kurze-saetze.md
+    - Prädikat nach vorn: teil-i-stil/praedikat-nach-vorn.md
+    - Konkret statt abstrakt: teil-i-stil/konkret-statt-abstrakt.md
+    - Kampf den Floskeln: teil-i-stil/kampf-den-floskeln.md
+  - Teil II — Prinzipien:
+    - Übersicht: teil-ii-prinzipien/index.md
+  - Teil III — Werkzeuge:
+    - Übersicht: teil-iii-werkzeuge/index.md
