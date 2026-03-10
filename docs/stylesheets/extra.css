@@ -1,1 +1,67 @@
-/* placeholder — wird in Task 4 gefüllt */
+/* ─── Fonts ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ─── Typografie-Basis ───────────────────────────────────── */
+:root {
+  --md-text-font: "Newsreader", Georgia, serif;
+  --md-code-font: "JetBrains Mono", monospace;
+}
+
+/* Headings: Inter Tight */
+h1, h2, h3, h4, h5, h6,
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Inter Tight", system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Lesetext: Newsreader, komfortabler Zeilenabstand */
+.md-typeset {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* Optimale Lesebreite */
+.md-content__inner {
+  max-width: 68ch;
+}
+
+/* ─── Diff-Callout ───────────────────────────────────────── */
+
+/* Vorher (rot) */
+.md-typeset .admonition.vorher,
+.md-typeset details.vorher {
+  border-color: #c62828;
+  background-color: rgba(198, 40, 40, 0.05);
+}
+.md-typeset .vorher > .admonition-title,
+.md-typeset .vorher > summary {
+  background-color: rgba(198, 40, 40, 0.12);
+  color: #c62828;
+}
+.md-typeset .vorher > .admonition-title::before,
+.md-typeset .vorher > summary::before {
+  background-color: #c62828;
+  -webkit-mask-image: var(--md-admonition-icon--danger);
+          mask-image: var(--md-admonition-icon--danger);
+}
+
+/* Nachher (grün) */
+.md-typeset .admonition.nachher,
+.md-typeset details.nachher {
+  border-color: #2e7d32;
+  background-color: rgba(46, 125, 50, 0.05);
+}
+.md-typeset .nachher > .admonition-title,
+.md-typeset .nachher > summary {
+  background-color: rgba(46, 125, 50, 0.12);
+  color: #2e7d32;
+}
+.md-typeset .nachher > .admonition-title::before,
+.md-typeset .nachher > summary::before {
+  background-color: #2e7d32;
+  -webkit-mask-image: var(--md-admonition-icon--tip);
+          mask-image: var(--md-admonition-icon--tip);
+}
